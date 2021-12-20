@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+}
+
+.inner__container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn__increase {
+  background-color: green;
+  font-size: 30px;
+  padding: 1em 2em;
+}
+.btn__reset {
+  background-color: grey;
+  font-size: 30px;
+  padding: 1em 2em;
+}
+.btn__decrease {
+  background-color: orange;
+  font-size: 30px;
+  padding: 1em 2em;
+}
